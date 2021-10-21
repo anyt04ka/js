@@ -13,6 +13,7 @@ console.log(square);
 
 let n = 56;
 let firstN = n / 10;
+firstN = parseInt(firstN);
 let secondN = n % 10;
 let sum = firstN + secondN;
 
