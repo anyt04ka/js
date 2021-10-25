@@ -44,17 +44,26 @@ switch (result) {
         console.log("Ошибка ввода");   
 }
 
-// задание 3 запуталась 
-/*
+// задание 3  
+
 let plates = 12;
 let fairy = 5;
-while (fairy <= 5) {
-    console.log("Осталось моющего средства" + fairy + " и тарелок " + plates);  
-if (plates > fairy) {
-    console.log("Осталось тарелок " + plates + " моющее средство закончилось");  
+if (fairy > 0 && plates > 0) {
+    while (plates > 0 && fairy > 0) {
+        plates --;
+        fairy -= 0.5;
     }
+if (fairy <= 0) {
+    console.log("Закончилось моющее средство");  
+} else if (plates <= 0) {
+    console.log("Закончились тарелки"); 
+} else if (fairy <= 0 && plates <= 0) {
+    console.log("Закончились тарелки и моющее средство");  
+    }
+} else {
+    console.log("Не хватает одной из позиций");  
 }
-*/
+
 
 // задание 4
 
