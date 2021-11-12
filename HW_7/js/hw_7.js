@@ -40,8 +40,8 @@ let goods = {
    
   }
   return newObj;
-  }else{return false}
-  }
+  } return false
+  };
 
   console.log(musicInts(goods,3000,54));
 
@@ -67,6 +67,6 @@ let books = [
     }
   }
   return newBooks;
-  }
+  };
   
   console.log(Litres(books,"Лермонтов"));
