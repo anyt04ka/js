@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">     
+    <title>Добавление задачи</title>    
+</head>
+  
+<body>  
+
+  <header><strong></strong>Табель оснащения АТЦ</strong></header>
+  <div class="container">
+    <div class="sidebar">
+      <a href="#">Меню</a>
+      <a href="#">Материалы</a> 
+      <a href="#">Товары</a>
+      <a href="#">Заявки</a>
+      <a href="#">Пользователи</a>
+    </div>
+    
+    <div class="content" id="addForm">
+      <form onsubmit="return false;">
+        <div class="form-group">
+          <label for="taskTitle">Название</label>
+          <input type="text" class="form-control" id="taskTitle" placeholder="Введите название задачи" aria-describedby="taskTitleHelp">          
+        </div>
+        <div class="form-group">
+          <label for="taskDescription">Описание</label>
+          <textarea id="taskDescription" placeholder="Введите описание задачи" name="text" class="form-control"></textarea>
+        </div>
+		    <div class="form-group">
+          <label for="taskTitle">Срок выполнения</label>
+          <input type="date" class="form-control" id="taskData" onclick = "new date();" placeholder="Срок выполнения" name="00.00.2021" value="00.00.2021"
+       min="01.01.2021" max="01.01.2050" aria-describedby="taskData">          
+        </div>
+        <button class="btn" id="taskAddButton">Добавить задачу</button>
+      </form>
+    </div>
+    <div id="taskList">
+      
+    </div>
+  </div>
+</div>
+
+  <script src="js/script.js">
+    
+  </script>
+</body>
+
+</html>

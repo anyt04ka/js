@@ -1,0 +1,178 @@
+body {
+	width: 100%;
+	margin: 0; 
+	max-width: 1920px;
+	min-width: 400px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 3.5;
+	color: #212529;
+	
+}
+
+header {	
+	display: flex;
+	padding-left: 2rem;
+	font-size: 1.2rem;
+	background: #9c9c9c;	
+	color: #fff;
+}
+
+  .container {
+	position: relative;
+	overflow: hidden;
+}
+
+ 
+.sidebar {
+	display: flex;
+    flex-direction: column;
+ 	background: #335b8f; 
+ 	width: 20%; 
+	float: left; 
+	overflow: hidden;
+}
+
+.sidebar a {
+    flex-direction: column;
+	text-decoration: none;
+	color: #fff;
+	padding-left: 2rem;
+	font-size: 1.2rem;
+
+}
+.content {
+	background: #F4ECCE; 
+	padding-left: 1rem;
+	overflow: hidden;
+}
+
+
+.card {
+	position: relative;	
+	display: flex;	
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .20rem;
+}
+
+.card-header:first-child {
+	border-radius: calc(.20rem - 1px) calc(.20rem - 1px) 0 0;
+}
+
+.card-header {
+    padding: .55rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}	
+
+.card-title {
+    margin-bottom: .55rem;
+}
+
+.close {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+}
+	
+.button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+}	
+	
+.ml-auto {
+    margin-left: auto;
+}
+
+.d-flex {
+    display: flex !important;
+}
+	
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}	
+
+.form-group {
+    margin-bottom: 1rem;
+}
+	
+.label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.form-control {
+    display: block;
+    width: 90%;
+    height: auto;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}	
+	
+.button, input {
+    overflow: visible;
+}	
+
+.textarea.form-control {
+    height: auto;
+}
+
+.textarea {
+    overflow: auto;
+    resize: vertical;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+	font-weight: 400;
+	color: #ffff;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: #014F99;
+	border: 1px solid #014F99;    
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
